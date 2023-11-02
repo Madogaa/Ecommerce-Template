@@ -1,0 +1,10 @@
+.combinations-container {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    gap: 10px;
+  }

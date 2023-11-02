@@ -1,0 +1,21 @@
+.cart{
+    z-index: 2000;
+    transition: transform .5s ease;
+}
+
+.top-cart::-webkit-scrollbar {
+    display: none;
+}
+
+.cart--transform{
+    transform: translate3d(100%,0,0);
+}
+
+.cart .cart-item{
+    margin-bottom: 32px;
+}
+
+.cart .cart-item:last-child{
+    margin-bottom: 0;
+}
+
